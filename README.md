@@ -2,6 +2,8 @@
 
 Welcome to the **Job Listing Platform**, a web application where users can create accounts to post job openings, and others can browse or search for jobs that suit their skills and interests.
 
+![image](https://github.com/user-attachments/assets/628a5af2-a85d-42e1-a31e-e290dc45316e)
+
 ## Features
 
 - **User Registration and Authentication**:
@@ -65,3 +67,4 @@ Follow these steps to set up the project locally:
     npm run dev
     php artisan serve
     ```
+   
