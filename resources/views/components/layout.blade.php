@@ -27,9 +27,12 @@
 
             @auth
             <div class="space-x-6 flex font-bold">
-                <div class="border border-transparent hover:border-blue-600 group transition-colors duration-300 p-3 rounded-xl">
-                    <a href="/jobs/create">Post a Job</a>
-                </div>
+
+                @if (auth()->user()->employer)
+                    <div class="border border-transparent hover:border-blue-600 group transition-colors duration-300 p-3 rounded-xl">
+                        <a href="/jobs/create">Post a Job</a>
+                    </div>
+                @endif
 
                 <form action="/logout" method="post" class="border border-transparent hover:border-blue-600 transition-colors duration-300 p-3 rounded-xl">
                     @csrf
