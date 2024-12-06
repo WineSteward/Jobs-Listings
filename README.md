@@ -45,6 +45,7 @@ Follow these steps to set up the project locally:
     ```bash
     cd Jobs-Listings
     composer install
+    npm install
     ```
 
 3. **Set environment variables**:
@@ -61,5 +62,6 @@ Follow these steps to set up the project locally:
 
 7. Run locally
     ```bash
-   php artisan serve
+    npm run dev
+    php artisan serve
     ```
