@@ -20,7 +20,7 @@ Welcome to the **Job Listing Platform**, a web application where users can creat
 
 - **Frontend & Backend**:
   - HTML, CSS, JavaScript
-  - Framework/Library: [Laravel-Breeze]
+  - Framework/Library: [Laravel-Blade]
     
 - **Database**:
   - [SQLite]
