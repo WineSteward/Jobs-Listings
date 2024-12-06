@@ -38,7 +38,7 @@ Follow these steps to set up the project locally:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/WineSteward/Jobs-Listings.git
-    cd job-listing
+    cd Jobs-Listings
     ```
 
 2. **Install dependencies**:
