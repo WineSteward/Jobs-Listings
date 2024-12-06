@@ -2,6 +2,8 @@
 
 Welcome to the **Job Listing Platform**, a web application where users can create accounts to post job openings, and others can browse or search for jobs that suit their skills and interests.
 
+![image](https://github.com/user-attachments/assets/628a5af2-a85d-42e1-a31e-e290dc45316e)
+
 ## Features
 
 - **User Registration and Authentication**:
@@ -20,7 +22,7 @@ Welcome to the **Job Listing Platform**, a web application where users can creat
 
 - **Frontend & Backend**:
   - HTML, CSS, JavaScript
-  - Framework/Library: [Laravel-Breeze]
+  - Framework/Library: [Laravel-Blade]
     
 - **Database**:
   - [SQLite]
@@ -45,6 +47,7 @@ Follow these steps to set up the project locally:
     ```bash
     cd Jobs-Listings
     composer install
+    npm install
     ```
 
 3. **Set environment variables**:
@@ -61,5 +64,7 @@ Follow these steps to set up the project locally:
 
 7. Run locally
     ```bash
-   php artisan serve
+    npm run dev
+    php artisan serve
     ```
+   
