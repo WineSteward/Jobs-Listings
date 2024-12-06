@@ -21,7 +21,7 @@ Welcome to the **Job Listing Platform**, a web application where users can creat
 - **Frontend & Backend**:
   - HTML, CSS, JavaScript
   - Framework/Library: [Laravel-Breeze]
-  - 
+    
 - **Database**:
   - [SQLite]
 
@@ -37,22 +37,29 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/job-listing-platform.git
-    cd job-listing-platform
+    git clone https://github.com/WineSteward/Jobs-Listings.git
+    cd job-listing
     ```
 
 2. **Install dependencies**:
     ```bash
-    cd
+    cd Jobs-Listings
     composer install
+    ```
 
 3. **Set environment variables**:
+    ```bash
    Create a `.env` file directory on the root of the project.
    Change the database name to whatever it may suit you.
    Also you'll need to generate an application key - php artisan key:generate
+    ```
 
 5. Run Migrations
+    ```bash
    php artisan migrate
+    ```
 
-6. Run locally
+7. Run locally
+    ```bash
    php artisan serve
+    ```
